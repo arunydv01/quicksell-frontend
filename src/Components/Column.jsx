@@ -4,14 +4,7 @@ import { AiOutlinePlus } from "react-icons/ai";
 import { BsThreeDots } from "react-icons/bs";
 
 function Column({ grouping, ordering, columnData, users }) {
-  const getUserForTicket = (ticket) => {
-    console.log('aman was ehere for tickets', ticket);
-    console.log('aman was ehre for users', users);
-    if (users === undefined || users === null || users.length === 0) {
-      if (users === undefined) alert('users is undefined');
-      if (users === null) alert('users is null');
-      if (users.length === 0) alert('users is empty');
-    }     
+  const getUserForTicket = (ticket) => {    
     for (let idx = 0; idx < users.length; idx++) {
       const user = users[idx];
       if (user.id === ticket.userId) {

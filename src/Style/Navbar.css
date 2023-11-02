@@ -1,0 +1,78 @@
+.Navbar{
+    background-color: white;
+    padding: 1rem;
+}
+
+.display-button{
+    width: 5rem;
+    height: 2rem;
+    margin: 10px;
+    padding: 3px;
+    border: solid 2px rgb(211, 206, 206);
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+
+.display-box{
+    display: flex;
+}
+
+.display-image{
+    height: inherit;
+    width: 20px;
+    margin: 2px;
+}
+
+.display-name{
+    height: inherit;
+    margin: 3px;
+}
+
+.hidden-box{
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    left: 0;
+    z-index: 20;
+    background-color: #f6f7f8;
+    color: #a1a2a3;
+    border: solid 1.5px rgb(226, 226, 226);
+    border-radius: 0.7rem;
+}
+
+.hidden-box .group{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px 1rem;
+    gap: 4rem;
+    align-items: center;
+}
+
+.select-grp {
+    border: solid 2px lightgray;
+    border-radius: 0.3rem;
+    padding-right: 3rem !important;
+    padding-left: 0.5rem !important;
+    padding: 0.2rem;
+    padding-inline-end: 2rem;
+    text-align: start;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    background-position: calc(100% - 0.5rem) center !important;;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="%23a1a2a3" d="M16 22a2 2 0 0 1-1.41-.59l-10-10a2 2 0 0 1 2.82-2.82L16 17.17l8.59-8.58a2 2 0 0 1 2.82 2.82l-10 10A2 2 0 0 1 16 22Z"></path></svg>');
+    background-repeat: no-repeat;
+    background-size: 0.8rem 0.8rem;
+}
+
+.select-grp
+
+.grouping,.ordering{
+    font-size: small;
+    font-weight: 600;
+}
+
+.select-grp option {
+    text-align: start;
+}

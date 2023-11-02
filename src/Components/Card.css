@@ -1,0 +1,65 @@
+.card-container {
+    background-color: white;
+    padding: 1rem 2rem;
+    position: relative;
+    width: 20rem;
+    border-radius: 0.7rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  .user-icon-container {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  
+  .user-icon {
+    position: relative;
+    visibility: hidden;
+  }
+  
+  .ticker-id {
+    color: #6c7077;
+  }
+  
+  .ticker-title {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-right: 3rem;
+  }
+  
+  .ticker-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .ticker-tags {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .tags-container {
+    display: flex;
+    gap: 0.5rem;
+    overflow-x: auto;
+  }
+  
+  .tag {
+    display: flex;
+    align-items: center;
+    border: 1px #c3c3c3 solid;
+    border-radius: 0.4rem;
+    padding: 0.2rem 0.6rem;
+    gap: 0.5rem;
+  }
+  
+  .tag-text {
+    font-size: 0.8rem;
+    color: #6c7077;
+    margin-bottom: 0.1rem;
+  }
+  
